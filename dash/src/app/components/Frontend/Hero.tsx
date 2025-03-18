@@ -4,11 +4,12 @@ import React from "react";
 import SearchBar from "./SearchBar";
 import TransitionText from "./TransitionText";
 import { Pill } from "lucide-react";
+import Image from "../../../assets/femaleDOC.jpg"
 
 const Hero = () => {
   const TEXTS = ['Acupuncture','Massage','Dental','Cosmetic','Dietition']
   return (  
-      <div className="bg-blue-950">
+      <div className="bg-blue-950 mt-[160px]">
         <div className="relative bg-blue-950 pb-[110px] pt-[50px] 
       dark:bg-dark lg:pt-[50px] max-w-6xl mx-auto">
         <div className="container">
@@ -71,7 +72,7 @@ const Hero = () => {
               <div className="lg:ml-auto lg:text-right">
                 <div className="relative z-10 inline-block pt-11 lg:pt-0">
                   <img
-                    src="https://cdn.tailgrids.com/1.0/assets/images/hero/hero-image-01.png"
+                    src={Image.src}
                     alt="hero"
                     className="max-w-full lg:ml-auto"
                   />
